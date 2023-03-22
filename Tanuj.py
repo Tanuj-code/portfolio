@@ -53,7 +53,7 @@ if(ch=="Home"):
         elif(co=="Tkinter" or co=="PyWeb" or co=="Android Studio" or co=="Firebase" or co=="SQLite" or co=="NoSQL" or co=="SQL" or co=="Git" or co=="Github" or co=="Data Structures and Algorithms" or co=="Wordpress" or co=="HTML" or co=="CSS" or co=="Jupyter" or co=="Arduino" or co=="Visual Studio" or co=="PyCharm" or co=="Sublime" or co=="TailwindCSS" or co=="Bootstrap"):
             st.success(co+": 9 out of 10")
         else:
-            st.error(co+":7 out of 10")
+            st.error(co+": 7 out of 10")
 
 elif(ch=="About Me"):
     st.write("### About Me", unsafe_allow_html=True)    
