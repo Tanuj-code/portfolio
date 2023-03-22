@@ -132,6 +132,7 @@ elif(ch=="Contact Me"):
         if send:
             tmp=st.empty()
             tmp.info("Please wait.")
+            time.sleep(2)
             connection=s.SMTP('smtp.gmail.com', 587)
             connection.starttls()
             sendto="tanc16h@gmail.com"
