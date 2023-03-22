@@ -47,8 +47,8 @@ if(ch=="Home"):
         elif(oc=="Area Chart"):
             st.area_chart(chart_data, x="Language", y="Proficiency")
         st.markdown("##### Frameworks and other tools", unsafe_allow_html=True)
-        co=st.selectbox("", ("MongoDB", "ExpressJs", "NodeJs", "ReactJS", "Tkinter", "Android Studio", "PyWeb", "Arduino", "Git", "Github", "Streamlit", "Heroku", "Linux", "Shell Scripting", "Firebase", "SQL", "NoSQL", "SQLite", "Wordpress", "Data Structures and Algorithms", "Jupyter", "HTML", "CSS", "Visual Studio", "PyCharm", "Sublime", "TailwindCSS", "Bootstrap"))
-        if(co=="MongoDB" or co=="ReactJS" or co=="NodeJs" or co=="StreamLit" or co=="Heroku" or co=="Streamlit"):
+        co=st.selectbox("", ("MongoDB", "ExpressJs", "NodeJs", "ReactJS", "Tkinter", "Android Studio", "PyWeb", "Arduino", "Git", "Github", "Streamlit", "Heroku", "Linux", "Shell Scripting", "Firebase", "SQL", "NoSQL", "SQLite", "Wordpress", "Data Structures and Algorithms", "Jupyter", "HTML", "CSS", "Visual Studio", "PyCharm", "Sublime", "TailwindCSS", "Bootstrap", "Sklearn"))
+        if(co=="MongoDB" or co=="ReactJS" or co=="NodeJs" or co=="StreamLit" or co=="Heroku" or co=="Streamlit" or co=="Sklearn"):
             st.info(co+": 8 out of 10")
         elif(co=="Tkinter" or co=="PyWeb" or co=="Android Studio" or co=="Firebase" or co=="SQLite" or co=="NoSQL" or co=="SQL" or co=="Git" or co=="Github" or co=="Data Structures and Algorithms" or co=="Wordpress" or co=="HTML" or co=="CSS" or co=="Jupyter" or co=="Arduino" or co=="Visual Studio" or co=="PyCharm" or co=="Sublime" or co=="TailwindCSS" or co=="Bootstrap"):
             st.success(co+": 9 out of 10")
@@ -105,7 +105,7 @@ elif(ch=="Projects"):
     st.markdown('##### Student Management Application ', unsafe_allow_html=True)
     st.markdown("<a href='https://github.com/Tanuj-code/Student-Management-Application'>Link to github repository</a><br>", unsafe_allow_html=True)
     with st.expander("View Details"):
-        st.write("This is an android application to monitor student records. All requirements from attendance to exam score maintenance have been served through special features. This application eases a teacher's hectic of managing student record and makes it easy enough to manage it at fingertips. Also anyone i.e. any teacher or organisation can login to his/her account from any device and use the app. Firebase has been used as backend and database while Java has been used for frontend. You can download and install the apk file of the app from the repository link above and use the app for free. <br>", unsafe_allow_html=True)
+        st.write("This is an android application to monitor student records. All requirements from attendance to exam score maintenance have been served through special features. This application eases a teacher's hectic of managing student record and makes it easy enough to manage it at fingertips. Also anyone i.e. any teacher or organization can login to his/her account from any device and use the app. Firebase has been used as backend and database while Java has been used for frontend. You can download and install the apk file of the app from the repository link above and use the app for free. <br>", unsafe_allow_html=True)
     st.markdown('##### Audiopad ', unsafe_allow_html=True)
     st.markdown("<a href='https://github.com/Tanuj-code/PythonAudioPad'>Link to github repository</a><br>", unsafe_allow_html=True)
     with st.expander("View Details"):
@@ -113,11 +113,11 @@ elif(ch=="Projects"):
     st.markdown('##### Tic-Tac-Toe Application')
     st.markdown("<a href='https://github.com/Tanuj-code/Android-TIC_TAC_TOE-GAME'>Link to github repository</a><br>", unsafe_allow_html=True)
     with st.expander("View Details"):
-        st.write("Android tic-tac-toe application which lets you play the game where you will be competing against a smart opponent (i.e. computer) which makes every attempt to ruin your strategy. It's a single player application. However a multiplayer application has also been developed and its apk has also been provided along with the single player application's apk in the repository link above. Visit the link and download and install the respective apk as per your choice and enjoy. Java has been used as the primary language for developing this application.", unsafe_allow_html=True)
+        st.write("Android tic-tac-toe application which lets you play the game where you will be competing against a smart opponent (i.e. computer) which makes every attempt to ruin your strategy. It's a single player application. However, a multiplayer application has also been developed and its apk has also been provided along with the single player application's apk in the repository link above. Visit the link and download and install the respective apk as per your choice and enjoy. Java has been used as the primary language for developing this application.", unsafe_allow_html=True)
     st.markdown('##### Themer Editor ', unsafe_allow_html=True)
     st.markdown("<a href='https://github.com/Tanuj-code/Themer-React-Editor'>Link to github repository</a><br><a href='https://tanuj-code.github.io/Themer-React-Editor/'>Use the online hosted editor now</a><br>", unsafe_allow_html=True)
     with st.expander("View Details"):
-        st.write("This editor has been made using React. It is a very attractive and interesting editor which lets you enjoy while typing through it interactive and smooth iterface. It has some other exciting features too which you will be able to use after visiting the site. Its direct link has also been provided above which you can check for quick use.<br> ", unsafe_allow_html=True)
+        st.write("This editor has been made using React. It is a very attractive and interesting editor which lets you enjoy while typing through it interactive and smooth interface. It has some other exciting features too which you will be able to use after visiting the site. Its direct link has also been provided above which you can check for quick use.<br> ", unsafe_allow_html=True)
     st.write("Besides these I have made other projects too which you can view by visiting<a href='https://github.com/Tanuj-code'> my github profile</a> and checking the repositories. ", unsafe_allow_html=True)
 elif(ch=="Contact Me"):
     st.write("### Contact Me", unsafe_allow_html=True)
