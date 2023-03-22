@@ -47,10 +47,10 @@ if(ch=="Home"):
         elif(oc=="Area Chart"):
             st.area_chart(chart_data, x="Language", y="Proficiency")
         st.markdown("##### Frameworks and other tools", unsafe_allow_html=True)
-        co=st.selectbox("", ("MongoDB", "ExpressJs", "NodeJs", "ReactJS", "Tkinter", "Android Studio", "PyWeb", "Arduino", "Git", "Github", "Streamlit", "Heroku", "Linux", "Shell Scripting", "Firebase", "SQL", "NoSQL", "SQLite", "Wordpress", "Data Structures and Algorithms", "Jupyter", "HTML", "CSS"))
+        co=st.selectbox("", ("MongoDB", "ExpressJs", "NodeJs", "ReactJS", "Tkinter", "Android Studio", "PyWeb", "Arduino", "Git", "Github", "Streamlit", "Heroku", "Linux", "Shell Scripting", "Firebase", "SQL", "NoSQL", "SQLite", "Wordpress", "Data Structures and Algorithms", "Jupyter", "HTML", "CSS", "Visual Studio", "PyCharm", "Sublime", "TailwindCSS", "Bootstrap"))
         if(co=="MongoDB" or co=="ReactJS" or co=="NodeJs" or co=="StreamLit" or co=="Heroku" or co=="Streamlit"):
             st.info(co+": 8 out of 10")
-        elif(co=="Tkinter" or co=="PyWeb" or co=="Android Studio" or co=="Firebase" or co=="SQLite" or co=="NoSQL" or co=="SQL" or co=="Git" or co=="Github" or co=="Data Structures and Algorithms" or co=="Wordpress" or co=="HTML" or co=="CSS" or co=="Jupyter" or co=="Arduino"):
+        elif(co=="Tkinter" or co=="PyWeb" or co=="Android Studio" or co=="Firebase" or co=="SQLite" or co=="NoSQL" or co=="SQL" or co=="Git" or co=="Github" or co=="Data Structures and Algorithms" or co=="Wordpress" or co=="HTML" or co=="CSS" or co=="Jupyter" or co=="Arduino" or co=="Visual Studio" or co=="PyCharm" or co=="Sublime" or co=="TailwindCSS" or co=="Bootstrap"):
             st.success(co+": 9 out of 10")
         else:
             st.error(co+":7 out of 10")
@@ -139,7 +139,7 @@ elif(ch=="Contact Me"):
             
             message="\n\nName:{}\n\nEmail:{}\n\nSubject:{}\n\nBody:{}".format(name, email, sub, body)
             if (email=="" or sub=="" or name=="" or body=="" or ".com" not in email):
-                tmp.error("Please fill all the fields.")                
+                tmp.error("Please fill all the fields with valid credentials.")                
                 time.sleep(2)
                 tmp.empty()            
             else:
