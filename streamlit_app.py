@@ -102,23 +102,31 @@ elif(ch=="Experience"):
         st.markdown('Also made personal projects using it such as relay lights and computer operated car. <br>', unsafe_allow_html=True)
 elif(ch=="Projects"):
     st.write("### Projects", unsafe_allow_html=True)
+    st.markdown('##### Moviz ', unsafe_allow_html=True)
+    st.markdown("<a href='https://github.com/tansrh/MOVIZZ'>Link to github repository</a><br>", unsafe_allow_html=True)
+    with st.expander("View Details"):
+        st.write("Moviz is a website that recommends movies. This is a full stack machine learning project made using Django. The site has three tabs: Home, Top, Contact. Home tab does the recommendation. It uses techniques of both collaborative and content based filtering to recommend movies. Recommendation is also done on the basis of actors, actresses, genres. The top tab provides top 50 movies. The contact page lets you contact with us. You details are mailed to us provided you enter a legit and existing email in the email input.Basically it is a ready to use web app. Earlier the database was postgres but due to hosting issues it was removed. The site had been deployed at railway. But because of financial constraints it has been removed. <br>", unsafe_allow_html=True)
+        st.markdown('##### Booker ', unsafe_allow_html=True)
+    st.markdown("<a href='https://github.com/tansrh/Booker.com'>Link to github repository</a><br><a href='https://tanuj-code.github.io/Themer-React-Editor/'>Use the online hosted editor now</a><br>", unsafe_allow_html=True)
+    with st.expander("View Details"):
+        st.write("Booker is a website that searches for available books. This project provides the list of available books based on the searched keywords . It uses google api to do so. Frontend has been designed using streamlit which is a python framework.<br>", unsafe_allow_html=True)
     st.markdown('##### Student Management Application ', unsafe_allow_html=True)
-    st.markdown("<a href='https://github.com/Tanuj-code/Student-Management-Application'>Link to github repository</a><br>", unsafe_allow_html=True)
+    st.markdown("<a href='https://github.com/tansrh/Student-Management-Application'>Link to github repository</a><br>", unsafe_allow_html=True)
     with st.expander("View Details"):
         st.write("This is an android application to monitor student records. All requirements from attendance to exam score maintenance have been served through special features. This application eases a teacher's hectic of managing student record and makes it easy enough to manage it at fingertips. Also anyone i.e. any teacher or organization can login to his/her account from any device and use the app. Firebase has been used as backend and database while Java has been used for frontend. You can download and install the apk file of the app from the repository link above and use the app for free. <br>", unsafe_allow_html=True)
     st.markdown('##### Audiopad ', unsafe_allow_html=True)
-    st.markdown("<a href='https://github.com/Tanuj-code/PythonAudioPad'>Link to github repository</a><br>", unsafe_allow_html=True)
+    st.markdown("<a href='https://github.com/tansrh/PythonAudioPad'>Link to github repository</a><br>", unsafe_allow_html=True)
     with st.expander("View Details"):
         st.write("It's a Notepad with audio feature made using python. Tkinter has been the library used specifically for this purpose. It's a mini notepad which enables one to write, read, create, delete text files along with another additional option of getting the files read. It provides every option and feature that one needs to read, write and manage files on an operating system. It consumes less memory as compared to Notepad and the audio option provides an audiobook like experience.<br> ", unsafe_allow_html=True)
     st.markdown('##### Tic-Tac-Toe Application')
-    st.markdown("<a href='https://github.com/Tanuj-code/Android-TIC_TAC_TOE-GAME'>Link to github repository</a><br>", unsafe_allow_html=True)
+    st.markdown("<a href='https://github.com/tansrh/Android-TIC_TAC_TOE-GAME'>Link to github repository</a><br>", unsafe_allow_html=True)
     with st.expander("View Details"):
         st.write("Android tic-tac-toe application which lets you play the game where you will be competing against a smart opponent (i.e. computer) which makes every attempt to ruin your strategy. It's a single player application. However, a multiplayer application has also been developed and its apk has also been provided along with the single player application's apk in the repository link above. Visit the link and download and install the respective apk as per your choice and enjoy. Java has been used as the primary language for developing this application.", unsafe_allow_html=True)
     st.markdown('##### Themer Editor ', unsafe_allow_html=True)
-    st.markdown("<a href='https://github.com/Tanuj-code/Themer-React-Editor'>Link to github repository</a><br><a href='https://tanuj-code.github.io/Themer-React-Editor/'>Use the online hosted editor now</a><br>", unsafe_allow_html=True)
+    st.markdown("<a href='https://github.com/tansrh/Themer-React-Editor'>Link to github repository</a><br><a href='https://tanuj-code.github.io/Themer-React-Editor/'>Use the online hosted editor now</a><br>", unsafe_allow_html=True)
     with st.expander("View Details"):
         st.write("This editor has been made using React. It is a very attractive and interesting editor which lets you enjoy while typing through it interactive and smooth interface. It has some other exciting features too which you will be able to use after visiting the site. Its direct link has also been provided above which you can check for quick use.<br> ", unsafe_allow_html=True)
-    st.write("Besides these I have made other projects too which you can view by visiting<a href='https://github.com/Tanuj-code'> my github profile</a> and checking the repositories. ", unsafe_allow_html=True)
+    st.write("Besides these I have made other projects too which you can view by visiting<a href='https://github.com/tansrh'> my github profile</a> and checking the repositories. ", unsafe_allow_html=True)
 elif(ch=="Contact Me"):
     st.write("### Contact Me", unsafe_allow_html=True)
     with st.form("Getintouch", clear_on_submit=True):
