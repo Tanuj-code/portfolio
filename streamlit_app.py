@@ -90,7 +90,7 @@ elif(ch=="Experience"):
     st.markdown('<b> Android Developer Intern: April, 2023 - present.</b>', unsafe_allow_html=True)
     with st.expander("View Details"):
         st.markdown('Work on assigned android tasks. Test apps. Provide solutions to bugs.', unsafe_allow_html=True)
-        st.markdown('Made several apps duting training phase. <br>', unsafe_allow_html=True)
+        st.markdown('Made several apps during training phase. <br>', unsafe_allow_html=True)
     st.markdown('##### GeeksforGeeks', unsafe_allow_html=True)
     st.markdown('<b> Technical Content Engineer: Aug, 2022 - Present.</b>', unsafe_allow_html=True)
     with st.expander("View Details"):
