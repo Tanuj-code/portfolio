@@ -106,7 +106,7 @@ elif(ch=="Projects"):
     st.markdown("<a href='https://github.com/tansrh/MOVIZZ'>Link to github repository</a><br>", unsafe_allow_html=True)
     with st.expander("View Details"):
         st.write("Moviz is a website that recommends movies. This is a full stack machine learning project made using Django. The site has three tabs: Home, Top, Contact. Home tab does the recommendation. It uses techniques of both collaborative and content based filtering to recommend movies. Recommendation is also done on the basis of actors, actresses, genres. The top tab provides top 50 movies. The contact page lets you contact with us. You details are mailed to us provided you enter a legit and existing email in the email input.Basically it is a ready to use web app. Earlier the database was postgres but due to hosting issues it was removed. The site had been deployed at railway. But because of financial constraints it has been removed. <br>", unsafe_allow_html=True)
-        st.markdown('##### Booker ', unsafe_allow_html=True)
+    st.markdown('##### Booker ', unsafe_allow_html=True)
     st.markdown("<a href='https://github.com/tansrh/Booker.com'>Link to github repository</a><br><a href='https://tanuj-code.github.io/Themer-React-Editor/'>Use the online hosted editor now</a><br>", unsafe_allow_html=True)
     with st.expander("View Details"):
         st.write("Booker is a website that searches for available books. This project provides the list of available books based on the searched keywords . It uses google api to do so. Frontend has been designed using streamlit which is a python framework.<br>", unsafe_allow_html=True)
